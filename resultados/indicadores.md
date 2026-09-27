@@ -47,6 +47,19 @@ Juntas, essas três categorias representam **81,82% das não conformidades** reg
 | Urinálise | 730 | 24 | 3,29% |
 | Bioquímica | 1.467 | 48 | 3,27% |
 
+## Não conformidades por setor e tipo
+
+A análise cruzada permite identificar como os diferentes tipos de não conformidade estão distribuídos entre os setores do laboratório.
+
+| Setor | Amostra inadequada | Volume insuficiente | Material não recebido | Identificação incorreta | Conservação inadequada | Total |
+|---|---:|---:|---:|---:|---:|---:|
+| Bioquimica | 19 | 10 | 13 | 2 | 4 | 48 |
+| Hematologia | 18 | 7 | 9 | 7 | 6 | 47 |
+| Imunologia | 17 | 6 | 5 | 5 | 0 | 33 |
+| Microbiologia | 11 | 5 | 2 | 2 | 4 | 24 |
+| Urinalise | 11 | 7 | 4 | 2 | 0 | 24 |
+| **Total** | **76** | **35** | **33** | **18** | **14** | **176** |
+
 ## Evolução mensal
 
 | Mês | Exames | Não conformidades | Taxa |
