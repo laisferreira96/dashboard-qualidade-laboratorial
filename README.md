@@ -48,6 +48,8 @@ A análise por setor permite comparar o volume de exames e a taxa de não confor
 
 Foi realizada uma análise cruzada entre os setores e os tipos de não conformidade, permitindo identificar quais ocorrências são mais frequentes em cada área.
 
+![Não Conformidades por Setor e Tipo](graficos/nao_conformidades_setor_tipo.png)
+
 ### 3. Análise de Pareto
 
 A análise de Pareto permite identificar as categorias que concentram a maior parte das não conformidades.
