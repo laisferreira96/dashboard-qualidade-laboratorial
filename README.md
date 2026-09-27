@@ -58,7 +58,21 @@ A análise de Pareto permite identificar as categorias que concentram a maior pa
 
 As três principais categorias — **amostra inadequada, volume insuficiente e material não recebido** — representam **81,82%** das não conformidades.
 
-### 4. Evolução mensal
+### 4. Taxa de recoleta
+
+Foram registradas **226 recoletas em 5.000 exames**, resultando em uma taxa geral de recoleta de **4,52%**.
+
+| Setor | Total de exames | Recoletas | Taxa de recoleta |
+|---|---:|---:|---:|
+| Urinalise | 730 | 39 | 5,34% |
+| Bioquimica | 1.467 | 71 | 4,84% |
+| Microbiologia | 603 | 28 | 4,64% |
+| Imunologia | 829 | 37 | 4,46% |
+| Hematologia | 1.371 | 51 | 3,72% |
+
+A análise permite acompanhar a ocorrência de recoletas de forma geral e por setor, contribuindo para o monitoramento dos indicadores de qualidade laboratorial.
+
+### 5. Evolução mensal
 
 A evolução mensal permite acompanhar a variação da taxa de não conformidade ao longo do período analisado.
 
