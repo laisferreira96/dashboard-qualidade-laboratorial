@@ -88,7 +88,8 @@ dashboard-qualidade-laboratorial/
 │   ├── 01_analise_setores.sql
 │   ├── 02_nao_conformidades.sql
 │   ├── 03_pareto.sql
-│   └── 04_evolucao_mensal.sql
+│   ├── 04_evolucao_mensal.sql
+│   └── 05_setor_tipo_nao_conformidade.sql
 │
 ├── resultados/
 │   └── indicadores.md
@@ -97,7 +98,8 @@ dashboard-qualidade-laboratorial/
     ├── pareto_nao_conformidades.md
     ├── pareto_nao_conformidades.png
     ├── taxa_nao_conformidade_setor.png
-    └── evolucao_taxa_nao_conformidade.png
+    ├── evolucao_taxa_nao_conformidade.png
+    └── nao_conformidades_setor_tipo.png
 ```
 
 ## Tecnologias utilizadas
