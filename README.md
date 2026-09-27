@@ -43,8 +43,8 @@ A análise por setor permite comparar o volume de exames e a taxa de não confor
 | Microbiologia |             603 |                24 | 3,98% |
 | Imunologia    |             829 |                33 | 3,98% |
 | Hematologia   |           1.371 |                47 | 3,43% |
-| Urinalise     |             730 |                24 | 3,29% |
-| Bioquimica    |           1.467 |                48 | 3,27% |
+| Urinálise     |             730 |                24 | 3,29% |
+| Bioquímica    |           1.467 |                48 | 3,27% |
 
 ### 2. Análise das não conformidades
 
@@ -70,8 +70,8 @@ A análise permite acompanhar a ocorrência de recoletas de forma geral e por se
 
 | Setor | Total de exames | Recoletas | Taxa de recoleta |
 |---|---:|---:|---:|
-| Urinalise | 730 | 39 | 5,34% |
-| Bioquimica | 1.467 | 71 | 4,84% |
+| Urinálise | 730 | 39 | 5,34% |
+| Bioquímica | 1.467 | 71 | 4,84% |
 | Microbiologia | 603 | 28 | 4,64% |
 | Imunologia | 829 | 37 | 4,46% |
 | Hematologia | 1.371 | 51 | 3,72% |
