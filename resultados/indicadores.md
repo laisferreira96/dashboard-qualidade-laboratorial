@@ -15,6 +15,8 @@ A taxa geral de não conformidade foi de **3,52%**.
 | Total de exames | 5.000 |
 | Total de não conformidades | 176 |
 | Taxa geral de não conformidade | 3,52% |
+| Total de recoletas         | 226   |
+| Taxa geral de recoleta     | 4,52% |
 
 ## Não conformidades por tipo
 
@@ -53,11 +55,11 @@ A análise cruzada permite identificar como os diferentes tipos de não conformi
 
 | Setor | Amostra inadequada | Volume insuficiente | Material não recebido | Identificação incorreta | Conservação inadequada | Total |
 |---|---:|---:|---:|---:|---:|---:|
-| Bioquimica | 19 | 10 | 13 | 2 | 4 | 48 |
+| Bioquímica | 19 | 10 | 13 | 2 | 4 | 48 |
 | Hematologia | 18 | 7 | 9 | 7 | 6 | 47 |
 | Imunologia | 17 | 6 | 5 | 5 | 0 | 33 |
 | Microbiologia | 11 | 5 | 2 | 2 | 4 | 24 |
-| Urinalise | 11 | 7 | 4 | 2 | 0 | 24 |
+| Urinálise | 11 | 7 | 4 | 2 | 0 | 24 |
 | **Total** | **76** | **35** | **33** | **18** | **14** | **176** |
 
 ## Taxa de recoleta
