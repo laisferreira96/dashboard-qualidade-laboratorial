@@ -103,11 +103,11 @@ dashboard-qualidade-laboratorial/
 ├── README.md
 │
 ├── sql/
-├── 01_analise_setores.sql
-├── 02_setor_tipo_nao_conformidade.sql
-├── 03_pareto.sql
-├── 04_evolucao_mensal.sql
-└── 05_taxa_recoleta.sql
+│   ├── 01_analise_setores.sql
+│   ├── 02_setor_tipo_nao_conformidade.sql
+│   ├── 03_pareto.sql
+│   ├── 04_evolucao_mensal.sql
+│   └── 05_taxa_recoleta.sql
 │
 ├── resultados/
 │   └── indicadores.md
