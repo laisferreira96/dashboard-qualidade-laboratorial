@@ -12,9 +12,11 @@ Analisar dados laboratoriais e indicadores de qualidade, utilizando técnicas de
 
 ## Principais indicadores
 
-* **Total de exames:** 5.000
-* **Total de não conformidades:** 176
-* **Taxa geral de não conformidade:** 3,52%
+- **Total de exames:** 5.000
+- **Total de não conformidades:** 176
+- **Taxa geral de não conformidade:** 3,52%
+- **Total de recoletas:** 226
+- **Taxa geral de recoleta:** 4,52%
 
 ### Não conformidades por tipo
 
@@ -62,6 +64,10 @@ As três principais categorias — **amostra inadequada, volume insuficiente e m
 
 Foram registradas **226 recoletas em 5.000 exames**, resultando em uma taxa geral de recoleta de **4,52%**.
 
+A análise permite acompanhar a ocorrência de recoletas de forma geral e por setor, contribuindo para o monitoramento dos indicadores de qualidade laboratorial.
+
+![Taxa de Recoleta por Setor](graficos/taxa_recoleta_setor.png)
+
 | Setor | Total de exames | Recoletas | Taxa de recoleta |
 |---|---:|---:|---:|
 | Urinalise | 730 | 39 | 5,34% |
@@ -69,8 +75,6 @@ Foram registradas **226 recoletas em 5.000 exames**, resultando em uma taxa gera
 | Microbiologia | 603 | 28 | 4,64% |
 | Imunologia | 829 | 37 | 4,46% |
 | Hematologia | 1.371 | 51 | 3,72% |
-
-A análise permite acompanhar a ocorrência de recoletas de forma geral e por setor, contribuindo para o monitoramento dos indicadores de qualidade laboratorial.
 
 ### 5. Evolução mensal
 
@@ -103,7 +107,8 @@ dashboard-qualidade-laboratorial/
 │   ├── 02_nao_conformidades.sql
 │   ├── 03_pareto.sql
 │   ├── 04_evolucao_mensal.sql
-│   └── 05_setor_tipo_nao_conformidade.sql
+│   ├── 05_setor_tipo_nao_conformidade.sql
+│   └── 06_taxa_recoleta.sql
 │
 ├── resultados/
 │   └── indicadores.md
@@ -112,6 +117,7 @@ dashboard-qualidade-laboratorial/
     ├── pareto_nao_conformidades.md
     ├── pareto_nao_conformidades.png
     ├── taxa_nao_conformidade_setor.png
+    ├── taxa_recoleta_setor.png
     ├── evolucao_taxa_nao_conformidade.png
     └── nao_conformidades_setor_tipo.png
 ```
@@ -129,7 +135,6 @@ Os dados utilizados neste projeto são destinados à demonstração de análise 
 
 ## Próximas análises
 
-- Análise da taxa de recoleta
 - Desenvolvimento de novos indicadores de qualidade
 - Expansão do dashboard com novas visualizações
 
