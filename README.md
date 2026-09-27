@@ -60,6 +60,8 @@ As três principais categorias — **amostra inadequada, volume insuficiente e m
 
 A evolução mensal permite acompanhar a variação da taxa de não conformidade ao longo do período analisado.
 
+![Evolução da Taxa de Não Conformidade](graficos/evolucao_taxa_nao_conformidade.png)
+
 | Mês       | Total de exames | Não conformidades |  Taxa |
 | --------- | --------------: | ----------------: | ----: |
 | Janeiro   |             679 |                28 | 4,12% |
@@ -91,7 +93,9 @@ dashboard-qualidade-laboratorial/
 │
 └── graficos/
     ├── pareto_nao_conformidades.md
-    └── pareto_nao_conformidades.png
+    ├── pareto_nao_conformidades.png
+    ├── taxa_nao_conformidade_setor.png
+    └── evolucao_taxa_nao_conformidade.png
 ```
 
 ## Tecnologias utilizadas
@@ -107,11 +111,10 @@ Os dados utilizados neste projeto são destinados à demonstração de análise 
 
 ## Próximas análises
 
-* Análise da taxa de não conformidade por setor
-* Evolução mensal dos indicadores
-* Visualização da distribuição das não conformidades
-* Desenvolvimento de novos indicadores de qualidade
-* Expansão do dashboard com novas visualizações
+- Análise da taxa de recoleta
+- Análise cruzada entre setores e tipos de não conformidade
+- Desenvolvimento de novos indicadores de qualidade
+- Expansão do dashboard com novas visualizações
 
 ## Autor
 
