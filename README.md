@@ -34,6 +34,8 @@ As três principais categorias representam **81,82%** das não conformidades reg
 
 A análise por setor permite comparar o volume de exames e a taxa de não conformidade entre as diferentes áreas do laboratório.
 
+![Taxa de Não Conformidade por Setor](graficos/taxa_nao_conformidade_setor.png)
+
 | Setor         | Total de exames | Não conformidades |  Taxa |
 | ------------- | --------------: | ----------------: | ----: |
 | Microbiologia |             603 |                24 | 3,98% |
