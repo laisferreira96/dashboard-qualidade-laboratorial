@@ -1,49 +1,79 @@
-Dashboard de Qualidade Laboratorial
+# Dashboard de Qualidade Laboratorial
 
-Projeto de portfólio de análise de dados aplicado à gestão da qualidade em laboratório clínico.
+Projeto de análise de dados aplicado à **Gestão da Qualidade em Laboratório Clínico**, utilizando SQL e SQLite para análise de indicadores e identificação de oportunidades de melhoria.
 
-Sobre o projeto
+## Objetivo
 
-Este projeto utiliza dados laboratoriais para gerar indicadores de qualidade por meio de SQL e SQLite.
+Analisar dados laboratoriais e indicadores de qualidade, utilizando técnicas de análise de dados para identificar padrões, principais não conformidades e sua distribuição entre os setores.
 
-A análise busca transformar dados operacionais em informações que permitam acompanhar não conformidades, identificar padrões e apoiar a gestão dos processos laboratoriais.
+## Período analisado
 
-Objetivos
-Analisar o volume de exames realizados;
-Identificar e quantificar não conformidades;
-Calcular a taxa de não conformidade;
-Comparar indicadores entre os setores;
-Identificar os principais tipos de não conformidade;
-Aplicar análise de Pareto;
-Acompanhar a evolução mensal dos indicadores;
-Utilizar SQL para geração dos indicadores.
-Tecnologias utilizadas
-SQL
-SQLite
-Git
-GitHub
-Indicadores analisados
+**Janeiro a Agosto de 2026**
 
-No período de janeiro a agosto de 2026:
+## Principais indicadores
 
-5.000 exames analisados
-176 não conformidades
-3,52% de taxa geral de não conformidade
-Principais resultados
+* **Total de exames:** 5.000
+* **Total de não conformidades:** 176
+* **Taxa geral de não conformidade:** 3,52%
 
-A principal categoria de não conformidade identificada foi Amostra inadequada, com 76 ocorrências, correspondendo a 43,18% do total.
+### Não conformidades por tipo
 
-As três categorias com maior número de ocorrências foram:
+| Tipo de não conformidade | Quantidade | Percentual |
+| ------------------------ | ---------: | ---------: |
+| Amostra inadequada       |         76 |     43,18% |
+| Volume insuficiente      |         35 |     19,89% |
+| Material não recebido    |         33 |     18,75% |
+| Identificação incorreta  |         18 |     10,23% |
+| Conservação inadequada   |         14 |      7,95% |
 
-Amostra inadequada — 43,18%
-Volume insuficiente — 19,89%
-Material não recebido — 18,75%
+As três principais categorias representam **81,82%** das não conformidades registradas no período.
 
-Em conjunto, essas categorias representaram 81,82% das não conformidades registradas no período.
+## Análises realizadas
 
-A análise mensal apresentou variação na taxa de não conformidade, de 4,12% em janeiro para 3,11% em agosto.
+### 1. Análise por setor
 
-Estrutura do projeto
+A análise por setor permite comparar o volume de exames e a taxa de não conformidade entre as diferentes áreas do laboratório.
+
+| Setor         | Total de exames | Não conformidades |  Taxa |
+| ------------- | --------------: | ----------------: | ----: |
+| Microbiologia |             603 |                24 | 3,98% |
+| Imunologia    |             829 |                33 | 3,98% |
+| Hematologia   |           1.371 |                47 | 3,43% |
+| Urinalise     |             730 |                24 | 3,29% |
+| Bioquimica    |           1.467 |                48 | 3,27% |
+
+### 2. Análise das não conformidades
+
+Foi realizada uma análise cruzada entre os setores e os tipos de não conformidade, permitindo identificar quais ocorrências são mais frequentes em cada área.
+
+### 3. Análise de Pareto
+
+A análise de Pareto permite identificar as categorias que concentram a maior parte das não conformidades.
+
+![Pareto das Não Conformidades](graficos/pareto_nao_conformidades.png)
+
+As três principais categorias — **amostra inadequada, volume insuficiente e material não recebido** — representam **81,82%** das não conformidades.
+
+### 4. Evolução mensal
+
+A evolução mensal permite acompanhar a variação da taxa de não conformidade ao longo do período analisado.
+
+| Mês       | Total de exames | Não conformidades |  Taxa |
+| --------- | --------------: | ----------------: | ----: |
+| Janeiro   |             679 |                28 | 4,12% |
+| Fevereiro |             601 |                24 | 3,99% |
+| Março     |             664 |                26 | 3,92% |
+| Abril     |             624 |                17 | 2,72% |
+| Maio      |             605 |                20 | 3,31% |
+| Junho     |             615 |                23 | 3,74% |
+| Julho     |             602 |                19 | 3,16% |
+| Agosto    |             610 |                19 | 3,11% |
+
+Entre janeiro e agosto, a taxa de não conformidade passou de **4,12% para 3,11%**.
+
+## Estrutura do projeto
+
+```text
 dashboard-qualidade-laboratorial/
 │
 ├── README.md
@@ -54,29 +84,35 @@ dashboard-qualidade-laboratorial/
 │   ├── 03_pareto.sql
 │   └── 04_evolucao_mensal.sql
 │
-└── resultados/
-    └── indicadores.md
-Análises realizadas
-Análise por setor
+├── resultados/
+│   └── indicadores.md
+│
+└── graficos/
+    ├── pareto_nao_conformidades.md
+    └── pareto_nao_conformidades.png
+```
 
-Cálculo do total de exames, número de não conformidades e taxa de não conformidade para cada setor do laboratório.
+## Tecnologias utilizadas
 
-Análise das não conformidades
+* **SQLite**
+* **SQL**
+* **GitHub**
+* **Excel** para criação das visualizações
 
-Identificação das ocorrências por setor e por tipo de não conformidade.
+## Observação sobre os dados
 
-Análise de Pareto
+Os dados utilizados neste projeto são destinados à demonstração de análise de dados e gestão da qualidade. Dados publicados em repositórios devem ser anonimizados e não devem conter informações que permitam a identificação de pacientes.
 
-Aplicação do princípio de Pareto para identificar as categorias que concentram a maior quantidade de ocorrências.
+## Próximas análises
 
-Evolução mensal
+* Análise da taxa de não conformidade por setor
+* Evolução mensal dos indicadores
+* Visualização da distribuição das não conformidades
+* Desenvolvimento de novos indicadores de qualidade
+* Expansão do dashboard com novas visualizações
 
-Acompanhamento da quantidade de exames, número de não conformidades e taxa mensal ao longo do período analisado.
+## Autor
 
-Observação sobre os dados
+**Lais Ferreira Silva**
 
-Os dados disponibilizados neste projeto devem estar anonimizados e não conter informações pessoais ou identificáveis de pacientes.
-
-Autora
-
-Projeto desenvolvido para portfólio na área de Análise de Dados, com aplicação prática em Gestão da Qualidade Laboratorial.
+Projeto desenvolvido para portfólio na área de **Análise de Dados**, com aplicação prática em **Gestão da Qualidade Laboratorial**.
