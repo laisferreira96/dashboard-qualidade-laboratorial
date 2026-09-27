@@ -46,7 +46,7 @@ A análise por setor permite comparar o volume de exames e a taxa de não confor
 | Urinálise     |             730 |                24 | 3,29% |
 | Bioquímica    |           1.467 |                48 | 3,27% |
 
-### 2. Análise das não conformidades
+### 2. Não conformidades por setor e tipo
 
 Foi realizada uma análise cruzada entre os setores e os tipos de não conformidade, permitindo identificar quais ocorrências são mais frequentes em cada área.
 
