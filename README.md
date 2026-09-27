@@ -116,7 +116,6 @@ Os dados utilizados neste projeto são destinados à demonstração de análise 
 ## Próximas análises
 
 - Análise da taxa de recoleta
-- Análise cruzada entre setores e tipos de não conformidade
 - Desenvolvimento de novos indicadores de qualidade
 - Expansão do dashboard com novas visualizações
 
