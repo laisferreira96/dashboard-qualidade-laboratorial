@@ -60,6 +60,20 @@ A análise cruzada permite identificar como os diferentes tipos de não conformi
 | Urinalise | 11 | 7 | 4 | 2 | 0 | 24 |
 | **Total** | **76** | **35** | **33** | **18** | **14** | **176** |
 
+## Taxa de recoleta
+
+Foram registradas **226 recoletas em 5.000 exames**, resultando em uma taxa geral de recoleta de **4,52%**.
+
+| Setor | Total de exames | Recoletas | Taxa de recoleta |
+|---|---:|---:|---:|
+| Urinálise | 730 | 39 | 5,34% |
+| Bioquímica | 1.467 | 71 | 4,84% |
+| Microbiologia | 603 | 28 | 4,64% |
+| Imunologia | 829 | 37 | 4,46% |
+| Hematologia | 1.371 | 51 | 3,72% |
+
+A análise permite acompanhar a ocorrência de recoletas de forma geral e por setor, contribuindo para o monitoramento dos indicadores de qualidade laboratorial.
+
 ## Evolução mensal
 
 | Mês | Exames | Não conformidades | Taxa |
