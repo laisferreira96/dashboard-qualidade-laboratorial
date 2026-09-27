@@ -141,4 +141,6 @@ Os dados utilizados neste projeto são destinados à demonstração de análise 
 
 **Lais Ferreira Silva**
 
-Projeto desenvolvido para portfólio na área de **Análise de Dados**, com aplicação prática em **Gestão da Qualidade Laboratorial**.
+Profissional da área de análises clínicas, com experiência em Gestão da Qualidade Laboratorial e formação em andamento na área de Tecnologia da Informação.
+
+Este projeto integra conhecimentos de **Gestão da Qualidade, Análise de Dados e SQL**, aplicados a um contexto laboratorial.
